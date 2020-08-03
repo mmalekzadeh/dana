@@ -2,4 +2,4 @@
 
 ## How to Run
 
-## Citations
+## Citation
