@@ -1,13 +1,18 @@
 # Dimension-Adaptive Neural Architecture (DANA)
 
 > Current deep neural architectures for processing sensor data are mainly designed for data coming from a fixed set of sensors, with a fixed sampling rate. Changing the dimensions of the input data causes considerable accuracy loss, unnecessary computations, or application failures. To address this problem, we introduce a dimension-adaptive pooling (DAP) layer that makes deep architectures robust to temporal changes in sampling rate and in sensor availability. DAP operates on convolutional filter maps of variable dimensions and produces an input of fixed dimensions suitable for feedforward and recurrent layers. Building on this architectural improvement, we propose a dimension-adaptive training (DAT) procedure to generalize over the entire space of feasible data dimensions at the inference time. DAT comprises the random selection of dimensions during the forward passes and optimization with accumulated gradients of several backward passes. We then combine DAP and DAT to transform existing non-adaptive deep architectures into a Dimension-Adaptive Neural Architecture (DANA) without altering other architectural aspects. Our solution does not need up-sampling or imputation, thus reduces unnecessary computations at inference time. Experimental results on public datasets show that DANA prevents losses in classification accuracy of the state-of-the-art deep architectures, under dynamic sensor availability and varying sampling rates.
-
+![jpg](dana.jpg)
+![jpg](dat.jpg)
 
 ## Citation
 
 Paper's Link (Coming Soon)
 
-## An Example
+## To Beging With:
+You can just click on this
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mmalekzadeh/dana/blob/master/experiment/DANA_a_tutorial.ipynb) to open and work with the provided tutorial using a free GPU.
+
+## Another Example
 ```python
 import os
 import sys
