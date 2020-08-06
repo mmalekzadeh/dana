@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+dana/datasets/MotionSense/MotionSense_x_test.csv
+dana/datasets/MotionSense/MotionSense_x_train.csv
+dana/datasets/MotionSense/MotionSense_y_test.csv
+dana/datasets/MotionSense/MotionSense_y_train.csv
+.DS_Store
+dana/.vscode/settings.json
+dana/datasets/MotionSense/X_test.npy
+dana/datasets/MotionSense/X_train.npy
+dana/datasets/MotionSense/y_test.npy
+dana/datasets/MotionSense/y_train.npy
+dana/datasets/Utwente/smartphoneatpocket.csv
+dana/datasets/Utwente/smartphoneatwrist.csv
