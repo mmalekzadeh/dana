@@ -6,7 +6,7 @@
 
 ## Citation
 
-Paper's Link (Coming Soon)
+https://arxiv.org/pdf/2008.02397.pdf
 
 ## To Beging With:
 You can just click on this
