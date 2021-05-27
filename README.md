@@ -9,8 +9,11 @@ https://arxiv.org/pdf/2008.02397.pdf
 https://arxiv.org/pdf/2008.02397.pdf
 
 ## To Beging With:
-You can just click on this
+
+1. You can just click on this
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mmalekzadeh/dana/blob/master/experiment/DANA_a_tutorial.ipynb) to open and work with the provided tutorial using a free GPU. Or, run the tutorial on [Kaggle](https://www.kaggle.com/malekzadeh/activity-recognition-with-adaptive-neural-networks).
+
+2. For the Controlled Experiments see this  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mmalekzadeh/dana/blob/master/experiment/Synthetic_Dataset_and_Experiment.ipynb)
 
 ## Another Example
 ```python
