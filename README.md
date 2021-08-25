@@ -108,7 +108,7 @@ for run in runs:
         model = dana_models.Ordonez2016DeepWithDAP((None, None, 1), len(np.unique(Y_train)), (8,9))
         print(model.summary())
 
-        loss_fn = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
+        loss_fn = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=False)
         optimizer = tf.keras.optimizers.Adam()
         # print("**__** Run {} -- Method {}".format(run, method))
         trainer = dana_trainers.ModelTrainer(model, loss_fn, optimizer, data_class_weights,
