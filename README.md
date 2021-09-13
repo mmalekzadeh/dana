@@ -10,8 +10,26 @@ https://arxiv.org/pdf/2008.02397.pdf
 ![jpg](dat.jpg)
 
 ## Citation
+Please use:
+```bibtex
+@article{malekzadeh2020dana,
+title = {DANA: Dimension-Adaptive Neural Architecture for Multivariate Sensor Data},
+author = {Malekzadeh, Mohammad and Clegg, Richard G and Cavallaro, Andrea and Haddadi, Hamed},
+year = {2021},
+issue_date = {September 2021},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {5},
+number = {3},
+url = {https://doi.org/10.1145/3478074},
+doi = {10.1145/3478074},
+journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+month = sep,
+articleno = {120},
+numpages = {27}
+}
+```
 
-https://arxiv.org/pdf/2008.02397.pdf
 
 ## To Beging With:
 
